@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* apply styles to <header> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,6 +47,7 @@ body {
     text-decoration: none;
 }
 
+/* Hero Style */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +58,7 @@ body {
     position: relative;
 }
 
+/* Middle Content */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,6 +75,24 @@ body {
     margin-left: 20px;
 }
 
+.content-in {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-in img {
+    max-height: 200px;
+}
+
+.content-in h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+ /* Right Content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,24 +120,7 @@ body {
     max-width: 150px;
 }
 
-.content-in {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-in img {
-    max-height: 200px;
-}
-
-.content-in h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
